@@ -16618,7 +16618,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <parts>
 <part name="Q519" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R670" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
-<part name="R668" library="rcl" deviceset="R-US_" device="0207/5V" value="56k"/>
+<part name="R668" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="Q7" library="808_lt" deviceset="2N3904" device=""/>
 <part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="47p"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
@@ -16629,7 +16629,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R1" library="rcl" deviceset="R-US_" device="0207/7" value="100k"/>
 <part name="Q518" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R669" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
-<part name="R667" library="rcl" deviceset="R-US_" device="0207/5V" value="56k"/>
+<part name="R667" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="C1" library="rcl" deviceset="C-US" device="050-025X075" value="473"/>
 <part name="VR63" library="TR808clone" deviceset="TRIM_EU-" device="B64Y" value="50KB"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
