@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -16617,7 +16617,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </classes>
 <parts>
 <part name="Q519" library="808_lt" deviceset="2N3904" device=""/>
-<part name="R670" library="rcl" deviceset="R-US_" device="0207/10" value="10k"/>
+<part name="R670" library="rcl" deviceset="R-US_" device="0207/7" value="10k"/>
 <part name="R668" library="rcl" deviceset="R-US_" device="0207/5V" value="56k"/>
 <part name="Q7" library="808_lt" deviceset="2N3904" device=""/>
 <part name="C2" library="rcl" deviceset="C-US" device="050-025X075" value="47p"/>
@@ -16657,12 +16657,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R673" library="rcl" deviceset="R-US_" device="0207/7" value="5k6"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R543" library="rcl" deviceset="R-US_" device="0207/7" value="82k"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
+<part name="R544" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="R676" library="rcl" deviceset="R-US_" device="0207/7" value="3k9"/>
 <part name="R546" library="rcl" deviceset="R-US_" device="0207/7" value="2M2"/>
 <part name="D527" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="1N4148"/>
 <part name="R672" library="rcl" deviceset="R-US_" device="0207/7" value="47k"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
+<part name="R545" library="rcl" deviceset="R-US_" device="0207/7" value="56k"/>
 <part name="R547" library="rcl" deviceset="R-US_" device="0207/7" value="47k"/>
 <part name="Q508" library="808_lt" deviceset="2N3904" device=""/>
 <part name="R548" library="rcl" deviceset="R-US_" device="0207/7" value="470k"/>
@@ -16675,6 +16675,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="C531" library="rcl" deviceset="C-US" device="050-025X075" value="22n"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="+12V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16697,9 +16698,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="R669" gate="G$1" x="25.4" y="119.38" rot="R270"/>
 <instance part="R667" gate="G$1" x="12.7" y="106.68"/>
 <instance part="C1" gate="G$1" x="187.96" y="114.3" rot="R90"/>
-<instance part="VR63" gate="1" x="134.62" y="83.82" smashed="yes" rot="MR180">
-<attribute name="NAME" x="125.73" y="80.391" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="125.73" y="82.55" size="1.778" layer="96" rot="MR180"/>
+<instance part="VR63" gate="1" x="127" y="81.28" smashed="yes" rot="MR180">
+<attribute name="NAME" x="118.11" y="77.851" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="118.11" y="80.01" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="P+2" gate="1" x="35.56" y="101.6"/>
 <instance part="P+3" gate="1" x="25.4" y="129.54"/>
@@ -16717,7 +16718,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="GND22" gate="1" x="-5.08" y="121.92"/>
 <instance part="GU" gate="-1" x="-5.08" y="106.68" rot="R180"/>
 <instance part="GU" gate="-2" x="5.08" y="81.28" rot="R180"/>
-<instance part="GU" gate="-3" x="127" y="76.2" rot="R180"/>
+<instance part="GU" gate="-3" x="116.84" y="73.66" rot="R180"/>
 <instance part="GU" gate="-4" x="0" y="132.08"/>
 <instance part="GU" gate="-5" x="0" y="129.54"/>
 <instance part="GU" gate="-6" x="233.68" y="116.84" rot="R180"/>
@@ -16734,12 +16735,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="R673" gate="G$1" x="58.42" y="142.24" rot="R270"/>
 <instance part="GND1" gate="1" x="43.18" y="96.52"/>
 <instance part="R543" gate="G$1" x="71.12" y="104.14" rot="R90"/>
-<instance part="R5" gate="G$1" x="81.28" y="104.14" rot="R90"/>
+<instance part="R544" gate="G$1" x="81.28" y="104.14" rot="R90"/>
 <instance part="R676" gate="G$1" x="111.76" y="152.4" rot="R180"/>
 <instance part="R546" gate="G$1" x="127" y="132.08" rot="R180"/>
 <instance part="D527" gate="G$1" x="45.72" y="86.36"/>
 <instance part="R672" gate="G$1" x="60.96" y="86.36"/>
-<instance part="R6" gate="G$1" x="91.44" y="86.36" rot="R180"/>
+<instance part="R545" gate="G$1" x="91.44" y="86.36" rot="R180"/>
 <instance part="R547" gate="G$1" x="142.24" y="129.54"/>
 <instance part="Q508" gate="G1" x="154.94" y="129.54"/>
 <instance part="R548" gate="G$1" x="149.86" y="121.92" rot="R90"/>
@@ -16752,6 +16753,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="C531" gate="G$1" x="134.62" y="104.14"/>
 <instance part="GND4" gate="1" x="157.48" y="93.98"/>
 <instance part="GND5" gate="1" x="172.72" y="93.98"/>
+<instance part="P+4" gate="1" x="127" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -16802,6 +16804,11 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="R549" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="129.54" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
 <junction x="172.72" y="152.4"/>
+</segment>
+<segment>
+<pinref part="VR63" gate="1" pin="A"/>
+<pinref part="P+4" gate="1" pin="+12V"/>
+<wire x1="127" y1="86.36" x2="127" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16952,15 +16959,9 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <net name="N$3" class="0">
 <segment>
 <pinref part="VR63" gate="1" pin="E"/>
-<wire x1="134.62" y1="76.2" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="76.2" x2="129.54" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="127" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GU" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="VR63" gate="1" pin="S"/>
-<wire x1="139.7" y1="83.82" x2="142.24" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -16968,13 +16969,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="JCK1" gate="G$1" pin="NORM"/>
 <wire x1="238.76" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GU" gate="-6" pin="S"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="VR63" gate="1" pin="A"/>
-<wire x1="134.62" y1="88.9" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C531" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -17060,7 +17054,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="71.12" y1="132.08" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="Q521" gate="G1" pin="B"/>
 <wire x1="81.28" y1="121.92" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R544" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="109.22" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
 <junction x="81.28" y="121.92"/>
 </segment>
@@ -17095,13 +17089,13 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <net name="N$14" class="0">
 <segment>
 <pinref part="VR59" gate="1" pin="A"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R545" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R545" gate="G$1" pin="2"/>
 <pinref part="R672" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R543" gate="G$1" pin="1"/>
@@ -17109,7 +17103,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="71.12" y1="86.36" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="99.06" x2="71.12" y2="86.36" width="0.1524" layer="91"/>
 <junction x="71.12" y="86.36"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R544" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="99.06" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
 <junction x="81.28" y="86.36"/>
 </segment>
@@ -17158,6 +17152,14 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <junction x="165.1" y="137.16"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="VR63" gate="1" pin="S"/>
+<pinref part="C531" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="81.28" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
